@@ -1,11 +1,11 @@
 // credencias com a base de dados.
 
 module.exports ={
-    dialect: 'mysql',
-    host: 'localhost',
-    user:'root',
+    dialect:'mysql',
+    host:'localhost',
+    username:'root',
     password:'',
-    database: 'sqlnode',
+    database:'sqlnode',
     define:{
       timestamps: true,
       underscored: true,
