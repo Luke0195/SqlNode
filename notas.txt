@@ -1,1 +1,7 @@
 yarn sequelize db: create cria a base de dados.
+
+yarn sequelize db:migrate -> executa a migration
+
+yarn sequelize db:migrate:undo -> reverte a ultima migration.
+
+yarn sequelize migration:create --name=create-users( cria uma nova migration users).
