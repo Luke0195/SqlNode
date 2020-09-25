@@ -1,7 +1,7 @@
-// Credencias com a base de dados.
+// credencias com a base de dados.
 
 module.exports ={
-    dialect: 'mysql2',
+    dialect: 'mysql',
     host: 'localhost',
     user:'root',
     password:'',
